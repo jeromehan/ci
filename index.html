@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <textarea id="bar" cols="62" rows="5" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra l�� , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. M�� faiz elementum girarzis, nisi eros vermeio, in elementis m�� pra quem �� amistosis quis leo. Manduma pindureta quium dia nois paga.</textarea>
+    <textarea id="bar" cols="62" rows="5" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">MVVM 可以很好的降低我们维护状态 -> 视图的复杂程度（大大减少代码中的视图更新逻辑）。但是这不是唯一的办法，还有一个非常直观的方法，可以大大降低视图更新的操作：一旦状态发生了变化，就用模版引擎重新渲染整个视图，然后用新的视图更换掉旧的视图。就像上面的表格，当用户点击的时候，还是在JS里面更新状态，但是页面更新就不用手动操作 DOM 了，直接把整个表格用模版引擎重新渲染一遍，然后设置一下innerHTML就完事了。.</textarea>
     <!-- Trigger -->
     <button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar">
     Cut to clipboard
